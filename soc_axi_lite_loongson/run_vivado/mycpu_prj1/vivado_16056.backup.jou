@@ -1,0 +1,89 @@
+#-----------------------------------------------------------
+# Vivado v2020.1 (64-bit)
+# SW Build 2902540 on Wed May 27 19:54:49 MDT 2020
+# IP Build 2902112 on Wed May 27 22:43:36 MDT 2020
+# Start of session at: Sat Nov 14 13:44:25 2020
+# Process ID: 16056
+# Current directory: C:/Users/Administrator/Desktop/cache_lab_v0.06/cache_lab_v0.06/soc_axi_lite_loongson/run_vivado/mycpu_prj1
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent5432 C:\Users\Administrator\Desktop\cache_lab_v0.06\cache_lab_v0.06\soc_axi_lite_loongson\run_vivado\mycpu_prj1\mycpu.xpr
+# Log file: C:/Users/Administrator/Desktop/cache_lab_v0.06/cache_lab_v0.06/soc_axi_lite_loongson/run_vivado/mycpu_prj1/vivado.log
+# Journal file: C:/Users/Administrator/Desktop/cache_lab_v0.06/cache_lab_v0.06/soc_axi_lite_loongson/run_vivado/mycpu_prj1\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/Administrator/Desktop/cache_lab_v0.06/cache_lab_v0.06/soc_axi_lite_loongson/run_vivado/mycpu_prj1/mycpu.xpr
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+generate_target all [get_files C:/Users/Administrator/Desktop/cache_lab_v0.06/cache_lab_v0.06/soc_axi_lite_loongson/rtl/xilinx_ip/axi_ram/axi_ram.xci]
+export_ip_user_files -of_objects [get_files C:/Users/Administrator/Desktop/cache_lab_v0.06/cache_lab_v0.06/soc_axi_lite_loongson/rtl/xilinx_ip/axi_ram/axi_ram.xci] -no_script -sync -force -quiet
+export_simulation -of_objects [get_files C:/Users/Administrator/Desktop/cache_lab_v0.06/cache_lab_v0.06/soc_axi_lite_loongson/rtl/xilinx_ip/axi_ram/axi_ram.xci] -directory C:/Users/Administrator/Desktop/cache_lab_v0.06/cache_lab_v0.06/soc_axi_lite_loongson/run_vivado/mycpu_prj1/mycpu.ip_user_files/sim_scripts -ip_user_files_dir C:/Users/Administrator/Desktop/cache_lab_v0.06/cache_lab_v0.06/soc_axi_lite_loongson/run_vivado/mycpu_prj1/mycpu.ip_user_files -ipstatic_source_dir C:/Users/Administrator/Desktop/cache_lab_v0.06/cache_lab_v0.06/soc_axi_lite_loongson/run_vivado/mycpu_prj1/mycpu.ip_user_files/ipstatic -lib_map_path [list {modelsim=C:/Modeltech_pe_edu_10.4a/xilinx_lib} {questa=C:/Users/Administrator/Desktop/cache_lab_v0.06/cache_lab_v0.06/soc_axi_lite_loongson/run_vivado/mycpu_prj1/mycpu.cache/compile_simlib/questa} {riviera=C:/Users/Administrator/Desktop/cache_lab_v0.06/cache_lab_v0.06/soc_axi_lite_loongson/run_vivado/mycpu_prj1/mycpu.cache/compile_simlib/riviera} {activehdl=C:/Users/Administrator/Desktop/cache_lab_v0.06/cache_lab_v0.06/soc_axi_lite_loongson/run_vivado/mycpu_prj1/mycpu.cache/compile_simlib/activehdl}] -use_ip_compiled_libs -force -quiet
+create_fileset -blockset axi_ram
+set_property top axi_ram [get_fileset axi_ram]
+move_files -fileset [get_fileset axi_ram] [get_files -of_objects [get_fileset sources_1] C:/Users/Administrator/Desktop/cache_lab_v0.06/cache_lab_v0.06/soc_axi_lite_loongson/rtl/xilinx_ip/axi_ram/axi_ram.xci]
+generate_target all [get_files C:/Users/Administrator/Desktop/cache_lab_v0.06/cache_lab_v0.06/soc_axi_lite_loongson/rtl/xilinx_ip/unsigned_mult/unsigned_mult.xci]
+export_ip_user_files -of_objects [get_files C:/Users/Administrator/Desktop/cache_lab_v0.06/cache_lab_v0.06/soc_axi_lite_loongson/rtl/xilinx_ip/unsigned_mult/unsigned_mult.xci] -no_script -sync -force -quiet
+export_simulation -of_objects [get_files C:/Users/Administrator/Desktop/cache_lab_v0.06/cache_lab_v0.06/soc_axi_lite_loongson/rtl/xilinx_ip/unsigned_mult/unsigned_mult.xci] -directory C:/Users/Administrator/Desktop/cache_lab_v0.06/cache_lab_v0.06/soc_axi_lite_loongson/run_vivado/mycpu_prj1/mycpu.ip_user_files/sim_scripts -ip_user_files_dir C:/Users/Administrator/Desktop/cache_lab_v0.06/cache_lab_v0.06/soc_axi_lite_loongson/run_vivado/mycpu_prj1/mycpu.ip_user_files -ipstatic_source_dir C:/Users/Administrator/Desktop/cache_lab_v0.06/cache_lab_v0.06/soc_axi_lite_loongson/run_vivado/mycpu_prj1/mycpu.ip_user_files/ipstatic -lib_map_path [list {modelsim=C:/Modeltech_pe_edu_10.4a/xilinx_lib} {questa=C:/Users/Administrator/Desktop/cache_lab_v0.06/cache_lab_v0.06/soc_axi_lite_loongson/run_vivado/mycpu_prj1/mycpu.cache/compile_simlib/questa} {riviera=C:/Users/Administrator/Desktop/cache_lab_v0.06/cache_lab_v0.06/soc_axi_lite_loongson/run_vivado/mycpu_prj1/mycpu.cache/compile_simlib/riviera} {activehdl=C:/Users/Administrator/Desktop/cache_lab_v0.06/cache_lab_v0.06/soc_axi_lite_loongson/run_vivado/mycpu_prj1/mycpu.cache/compile_simlib/activehdl}] -use_ip_compiled_libs -force -quiet
+create_fileset -blockset unsigned_mult
+set_property top unsigned_mult [get_fileset unsigned_mult]
+move_files -fileset [get_fileset unsigned_mult] [get_files -of_objects [get_fileset sources_1] C:/Users/Administrator/Desktop/cache_lab_v0.06/cache_lab_v0.06/soc_axi_lite_loongson/rtl/xilinx_ip/unsigned_mult/unsigned_mult.xci]
+generate_target all [get_files C:/Users/Administrator/Desktop/cache_lab_v0.06/cache_lab_v0.06/soc_axi_lite_loongson/rtl/xilinx_ip/signed_mult/signed_mult.xci]
+export_ip_user_files -of_objects [get_files C:/Users/Administrator/Desktop/cache_lab_v0.06/cache_lab_v0.06/soc_axi_lite_loongson/rtl/xilinx_ip/signed_mult/signed_mult.xci] -no_script -sync -force -quiet
+export_simulation -of_objects [get_files C:/Users/Administrator/Desktop/cache_lab_v0.06/cache_lab_v0.06/soc_axi_lite_loongson/rtl/xilinx_ip/signed_mult/signed_mult.xci] -directory C:/Users/Administrator/Desktop/cache_lab_v0.06/cache_lab_v0.06/soc_axi_lite_loongson/run_vivado/mycpu_prj1/mycpu.ip_user_files/sim_scripts -ip_user_files_dir C:/Users/Administrator/Desktop/cache_lab_v0.06/cache_lab_v0.06/soc_axi_lite_loongson/run_vivado/mycpu_prj1/mycpu.ip_user_files -ipstatic_source_dir C:/Users/Administrator/Desktop/cache_lab_v0.06/cache_lab_v0.06/soc_axi_lite_loongson/run_vivado/mycpu_prj1/mycpu.ip_user_files/ipstatic -lib_map_path [list {modelsim=C:/Modeltech_pe_edu_10.4a/xilinx_lib} {questa=C:/Users/Administrator/Desktop/cache_lab_v0.06/cache_lab_v0.06/soc_axi_lite_loongson/run_vivado/mycpu_prj1/mycpu.cache/compile_simlib/questa} {riviera=C:/Users/Administrator/Desktop/cache_lab_v0.06/cache_lab_v0.06/soc_axi_lite_loongson/run_vivado/mycpu_prj1/mycpu.cache/compile_simlib/riviera} {activehdl=C:/Users/Administrator/Desktop/cache_lab_v0.06/cache_lab_v0.06/soc_axi_lite_loongson/run_vivado/mycpu_prj1/mycpu.cache/compile_simlib/activehdl}] -use_ip_compiled_libs -force -quiet
+create_fileset -blockset signed_mult
+set_property top signed_mult [get_fileset signed_mult]
+move_files -fileset [get_fileset signed_mult] [get_files -of_objects [get_fileset sources_1] C:/Users/Administrator/Desktop/cache_lab_v0.06/cache_lab_v0.06/soc_axi_lite_loongson/rtl/xilinx_ip/signed_mult/signed_mult.xci]
+launch_run {axi_ram_synth_1 unsigned_mult_synth_1 signed_mult_synth_1}
+wait_on_run axi_ram_synth_1
+
+wait_on_run axi_ram_synth_1
+wait_on_run unsigned_mult_synth_1
+
+wait_on_run axi_ram_synth_1
+wait_on_run unsigned_mult_synth_1
+wait_on_run signed_mult_synth_1
+
+launch_simulation
+launch_simulation
+add_files {C:/Users/Administrator/Desktop/cache_lab_v0.06/cache_lab_v0.06/soc_axi_lite_loongson/rtl/xilinx_ip/axi_clock_converter/axi_clock_converter.xci C:/Users/Administrator/Desktop/cache_lab_v0.06/cache_lab_v0.06/soc_axi_lite_loongson/rtl/xilinx_ip/axi_crossbar_1x2/axi_crossbar_1x2.xci C:/Users/Administrator/Desktop/cache_lab_v0.06/cache_lab_v0.06/soc_axi_lite_loongson/rtl/xilinx_ip/signed_mult/signed_mult.xci C:/Users/Administrator/Desktop/cache_lab_v0.06/cache_lab_v0.06/soc_axi_lite_loongson/rtl/xilinx_ip/unsigned_mult/unsigned_mult.xci C:/Users/Administrator/Desktop/cache_lab_v0.06/cache_lab_v0.06/soc_axi_lite_loongson/rtl/xilinx_ip/axi_ram/axi_ram.xci C:/Users/Administrator/Desktop/cache_lab_v0.06/cache_lab_v0.06/soc_axi_lite_loongson/rtl/xilinx_ip/clk_pll/clk_pll.xci}
+export_ip_user_files -of_objects  [get_files  {C:/Users/Administrator/Desktop/cache_lab_v0.06/cache_lab_v0.06/soc_axi_lite_loongson/rtl/xilinx_ip/axi_clock_converter/axi_clock_converter.xci C:/Users/Administrator/Desktop/cache_lab_v0.06/cache_lab_v0.06/soc_axi_lite_loongson/rtl/xilinx_ip/axi_crossbar_1x2/axi_crossbar_1x2.xci C:/Users/Administrator/Desktop/cache_lab_v0.06/cache_lab_v0.06/soc_axi_lite_loongson/rtl/xilinx_ip/clk_pll/clk_pll.xci}] -lib_map_path [list {modelsim=C:/Modeltech_pe_edu_10.4a/xilinx_lib} {questa=C:/Users/Administrator/Desktop/cache_lab_v0.06/cache_lab_v0.06/soc_axi_lite_loongson/run_vivado/mycpu_prj1/mycpu.cache/compile_simlib/questa} {riviera=C:/Users/Administrator/Desktop/cache_lab_v0.06/cache_lab_v0.06/soc_axi_lite_loongson/run_vivado/mycpu_prj1/mycpu.cache/compile_simlib/riviera} {activehdl=C:/Users/Administrator/Desktop/cache_lab_v0.06/cache_lab_v0.06/soc_axi_lite_loongson/run_vivado/mycpu_prj1/mycpu.cache/compile_simlib/activehdl}] -force -quiet
+launch_simulation
+upgrade_ip [get_ips  {axi_clock_converter axi_crossbar_1x2 clk_pll}] -log ip_upgrade.log
+export_ip_user_files -of_objects [get_ips {axi_clock_converter axi_crossbar_1x2 clk_pll}] -no_script -sync -force -quiet
+generate_target all [get_files  {C:/Users/Administrator/Desktop/cache_lab_v0.06/cache_lab_v0.06/soc_axi_lite_loongson/rtl/xilinx_ip/axi_clock_converter/axi_clock_converter.xci C:/Users/Administrator/Desktop/cache_lab_v0.06/cache_lab_v0.06/soc_axi_lite_loongson/rtl/xilinx_ip/axi_crossbar_1x2/axi_crossbar_1x2.xci C:/Users/Administrator/Desktop/cache_lab_v0.06/cache_lab_v0.06/soc_axi_lite_loongson/rtl/xilinx_ip/clk_pll/clk_pll.xci}]
+export_ip_user_files -of_objects [get_files C:/Users/Administrator/Desktop/cache_lab_v0.06/cache_lab_v0.06/soc_axi_lite_loongson/rtl/xilinx_ip/axi_clock_converter/axi_clock_converter.xci] -no_script -sync -force -quiet
+export_ip_user_files -of_objects [get_files C:/Users/Administrator/Desktop/cache_lab_v0.06/cache_lab_v0.06/soc_axi_lite_loongson/rtl/xilinx_ip/axi_crossbar_1x2/axi_crossbar_1x2.xci] -no_script -sync -force -quiet
+export_ip_user_files -of_objects [get_files C:/Users/Administrator/Desktop/cache_lab_v0.06/cache_lab_v0.06/soc_axi_lite_loongson/rtl/xilinx_ip/clk_pll/clk_pll.xci] -no_script -sync -force -quiet
+create_ip_run [get_files -of_objects [get_fileset sources_1] C:/Users/Administrator/Desktop/cache_lab_v0.06/cache_lab_v0.06/soc_axi_lite_loongson/rtl/xilinx_ip/axi_clock_converter/axi_clock_converter.xci]
+create_ip_run [get_files -of_objects [get_fileset sources_1] C:/Users/Administrator/Desktop/cache_lab_v0.06/cache_lab_v0.06/soc_axi_lite_loongson/rtl/xilinx_ip/axi_crossbar_1x2/axi_crossbar_1x2.xci]
+create_ip_run [get_files -of_objects [get_fileset sources_1] C:/Users/Administrator/Desktop/cache_lab_v0.06/cache_lab_v0.06/soc_axi_lite_loongson/rtl/xilinx_ip/clk_pll/clk_pll.xci]
+launch_runs axi_clock_converter_synth_1 axi_crossbar_1x2_synth_1 clk_pll_synth_1 -jobs 2
+wait_on_run axi_clock_converter_synth_1
+wait_on_run axi_crossbar_1x2_synth_1
+wait_on_run clk_pll_synth_1
+export_simulation -of_objects [get_files C:/Users/Administrator/Desktop/cache_lab_v0.06/cache_lab_v0.06/soc_axi_lite_loongson/rtl/xilinx_ip/axi_clock_converter/axi_clock_converter.xci] -directory C:/Users/Administrator/Desktop/cache_lab_v0.06/cache_lab_v0.06/soc_axi_lite_loongson/run_vivado/mycpu_prj1/mycpu.ip_user_files/sim_scripts -ip_user_files_dir C:/Users/Administrator/Desktop/cache_lab_v0.06/cache_lab_v0.06/soc_axi_lite_loongson/run_vivado/mycpu_prj1/mycpu.ip_user_files -ipstatic_source_dir C:/Users/Administrator/Desktop/cache_lab_v0.06/cache_lab_v0.06/soc_axi_lite_loongson/run_vivado/mycpu_prj1/mycpu.ip_user_files/ipstatic -lib_map_path [list {modelsim=C:/Modeltech_pe_edu_10.4a/xilinx_lib} {questa=C:/Users/Administrator/Desktop/cache_lab_v0.06/cache_lab_v0.06/soc_axi_lite_loongson/run_vivado/mycpu_prj1/mycpu.cache/compile_simlib/questa} {riviera=C:/Users/Administrator/Desktop/cache_lab_v0.06/cache_lab_v0.06/soc_axi_lite_loongson/run_vivado/mycpu_prj1/mycpu.cache/compile_simlib/riviera} {activehdl=C:/Users/Administrator/Desktop/cache_lab_v0.06/cache_lab_v0.06/soc_axi_lite_loongson/run_vivado/mycpu_prj1/mycpu.cache/compile_simlib/activehdl}] -use_ip_compiled_libs -force -quiet
+export_simulation -of_objects [get_files C:/Users/Administrator/Desktop/cache_lab_v0.06/cache_lab_v0.06/soc_axi_lite_loongson/rtl/xilinx_ip/axi_crossbar_1x2/axi_crossbar_1x2.xci] -directory C:/Users/Administrator/Desktop/cache_lab_v0.06/cache_lab_v0.06/soc_axi_lite_loongson/run_vivado/mycpu_prj1/mycpu.ip_user_files/sim_scripts -ip_user_files_dir C:/Users/Administrator/Desktop/cache_lab_v0.06/cache_lab_v0.06/soc_axi_lite_loongson/run_vivado/mycpu_prj1/mycpu.ip_user_files -ipstatic_source_dir C:/Users/Administrator/Desktop/cache_lab_v0.06/cache_lab_v0.06/soc_axi_lite_loongson/run_vivado/mycpu_prj1/mycpu.ip_user_files/ipstatic -lib_map_path [list {modelsim=C:/Modeltech_pe_edu_10.4a/xilinx_lib} {questa=C:/Users/Administrator/Desktop/cache_lab_v0.06/cache_lab_v0.06/soc_axi_lite_loongson/run_vivado/mycpu_prj1/mycpu.cache/compile_simlib/questa} {riviera=C:/Users/Administrator/Desktop/cache_lab_v0.06/cache_lab_v0.06/soc_axi_lite_loongson/run_vivado/mycpu_prj1/mycpu.cache/compile_simlib/riviera} {activehdl=C:/Users/Administrator/Desktop/cache_lab_v0.06/cache_lab_v0.06/soc_axi_lite_loongson/run_vivado/mycpu_prj1/mycpu.cache/compile_simlib/activehdl}] -use_ip_compiled_libs -force -quiet
+export_simulation -of_objects [get_files C:/Users/Administrator/Desktop/cache_lab_v0.06/cache_lab_v0.06/soc_axi_lite_loongson/rtl/xilinx_ip/clk_pll/clk_pll.xci] -directory C:/Users/Administrator/Desktop/cache_lab_v0.06/cache_lab_v0.06/soc_axi_lite_loongson/run_vivado/mycpu_prj1/mycpu.ip_user_files/sim_scripts -ip_user_files_dir C:/Users/Administrator/Desktop/cache_lab_v0.06/cache_lab_v0.06/soc_axi_lite_loongson/run_vivado/mycpu_prj1/mycpu.ip_user_files -ipstatic_source_dir C:/Users/Administrator/Desktop/cache_lab_v0.06/cache_lab_v0.06/soc_axi_lite_loongson/run_vivado/mycpu_prj1/mycpu.ip_user_files/ipstatic -lib_map_path [list {modelsim=C:/Modeltech_pe_edu_10.4a/xilinx_lib} {questa=C:/Users/Administrator/Desktop/cache_lab_v0.06/cache_lab_v0.06/soc_axi_lite_loongson/run_vivado/mycpu_prj1/mycpu.cache/compile_simlib/questa} {riviera=C:/Users/Administrator/Desktop/cache_lab_v0.06/cache_lab_v0.06/soc_axi_lite_loongson/run_vivado/mycpu_prj1/mycpu.cache/compile_simlib/riviera} {activehdl=C:/Users/Administrator/Desktop/cache_lab_v0.06/cache_lab_v0.06/soc_axi_lite_loongson/run_vivado/mycpu_prj1/mycpu.cache/compile_simlib/activehdl}] -use_ip_compiled_libs -force -quiet
+wait_on_run axi_clock_converter_synth_1
+launch_simulation
+source tb_top.tcl
+run all
+set_property -dict [list CONFIG.Coe_File {C:/Users/Administrator/Desktop/cache_lab_v0.06/cache_lab_v0.06/soft/cache_lab/obj/shell1/axi_ram.coe}] [get_ips axi_ram]
+close_sim
+launch_simulation
+source tb_top.tcl
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run all
+run all
+close_sim
+launch_simulation
+source tb_top.tcl
+run 10 ps
+run all
+close_sim

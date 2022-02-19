@@ -1,0 +1,54 @@
+#-----------------------------------------------------------
+# Vivado v2020.1 (64-bit)
+# SW Build 2902540 on Wed May 27 19:54:49 MDT 2020
+# IP Build 2902112 on Wed May 27 22:43:36 MDT 2020
+# Start of session at: Sat Nov 14 19:27:11 2020
+# Process ID: 5484
+# Current directory: C:/Users/Administrator/Desktop/cache_lab_v0.06/cache_lab_v0.06/soc_axi_lite_loongson/run_vivado/mycpu_prj1
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent15512 C:\Users\Administrator\Desktop\cache_lab_v0.06\cache_lab_v0.06\soc_axi_lite_loongson\run_vivado\mycpu_prj1\mycpu.xpr
+# Log file: C:/Users/Administrator/Desktop/cache_lab_v0.06/cache_lab_v0.06/soc_axi_lite_loongson/run_vivado/mycpu_prj1/vivado.log
+# Journal file: C:/Users/Administrator/Desktop/cache_lab_v0.06/cache_lab_v0.06/soc_axi_lite_loongson/run_vivado/mycpu_prj1\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/Administrator/Desktop/cache_lab_v0.06/cache_lab_v0.06/soc_axi_lite_loongson/run_vivado/mycpu_prj1/mycpu.xpr
+update_compile_order -fileset sources_1
+launch_simulation
+launch_simulation
+source tb_top.tcl
+run all
+close_sim
+launch_simulation
+source tb_top.tcl
+close_sim
+launch_simulation
+source tb_top.tcl
+run all
+add_bp {C:/Users/Administrator/Desktop/cache_lab_v0.06/cache_lab_v0.06/soc_axi_lite_loongson/rtl/myCPU/d_cache.v} 149
+remove_bps -file {C:/Users/Administrator/Desktop/cache_lab_v0.06/cache_lab_v0.06/soc_axi_lite_loongson/rtl/myCPU/d_cache.v} -line 149
+close_sim
+launch_simulation
+source tb_top.tcl
+run all
+open_wave_config {C:/Users/Administrator/Desktop/cache_lab_v0.06/cache_lab_v0.06/soc_axi_lite_loongson/ohhhh.wcfg}
+close_sim
+launch_simulation
+source tb_top.tcl
+open_wave_config {C:/Users/Administrator/Desktop/cache_lab_v0.06/cache_lab_v0.06/soc_axi_lite_loongson/ohhhh.wcfg}
+run all
+close_sim
+launch_simulation
+source tb_top.tcl
+open_wave_config {C:/Users/Administrator/Desktop/cache_lab_v0.06/cache_lab_v0.06/soc_axi_lite_loongson/ohhhh.wcfg}
+run all
+close_sim
+launch_simulation
+source tb_top.tcl
+run all
+open_wave_config {C:/Users/Administrator/Desktop/cache_lab_v0.06/cache_lab_v0.06/soc_axi_lite_loongson/ohhhh.wcfg}
+close_sim
+launch_simulation
+source tb_top.tcl
+run all
+open_wave_config {C:/Users/Administrator/Desktop/cache_lab_v0.06/cache_lab_v0.06/soc_axi_lite_loongson/ohhhh.wcfg}
+save_wave_config {C:/Users/Administrator/Desktop/cache_lab_v0.06/cache_lab_v0.06/soc_axi_lite_loongson/ohhhh.wcfg}
+close_sim
